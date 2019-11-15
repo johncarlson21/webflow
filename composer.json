@@ -1,0 +1,23 @@
+{
+    "name": "johncarlson21/webflow",
+    "description": "Webflow application",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "John Carlson",
+            "email": "john@surethingweb.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Webflow\\": "src/"
+        }
+    }
+}
+
+
