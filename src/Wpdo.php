@@ -16,7 +16,7 @@ class Wpdo extends PDO {
     
     public $datetime;
     
-    public function __construct( $file = 'db.ini' ) {
+    public function __construct( $file = 'config.ini' ) {
         if ( !$settings = parse_ini_file( $file, TRUE ) ) throw new exception( 'Unable to open ' . $file . '.' );
         
         $this->tables = $settings['tables'];
